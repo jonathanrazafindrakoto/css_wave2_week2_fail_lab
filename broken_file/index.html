@@ -4,22 +4,20 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Portfolio</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="py-4 ">
-    <h1 class="display-4">My Portfolio</h1>
-    <p class="lead">Welcome to my professional space on the web!</p>
-  </div>
-
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="contain-">
-      <a class="navbar-brand" href="index.html">Home</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+  <header>
+    <div class="py-0">
+      <h1 class="display-4">My Portfolio</h1>
+      <p class="lead">Welcome to my professional space on the web!</p>
+    </div>
+  </header>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="nav-link" href="index.html">Home</a>
+      <div class="" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link active" href="#">About</a></li>
           <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
@@ -32,23 +30,23 @@
   </nav>
 
   <main class="container py-5">
-    <main id="about" class="text-center mb-5">
-      <h2>About Me</h2>
-      <p class="lead">I’m a passionate web developer building responsive and accessible websites.<p>
+    <section id="about" class="text-center mb-5">
+      <h2 class="">About Me</h2>
+      <p class="lead text-muted">I’m a passionate web developer building responsive and accessible websites.</p>
       <p>I specialize in frontend development, creating interactive and dynamic user experiences. I also enjoy backend development and working with APIs.</p>
-    </main>
+      </section>
 
-    <section id="education" class="mb-5">
-      <h3 class="text-center text-start">Education</h3>
+    <section id="education" class="text-start mb-5">
+      <h3 class="">Education</h3>
       <ul>
-        <li style="margin-left: 200px">Bachelor of Science in Computer Science - University of Web (2021)<li>
-        <li>Advanced CSS and JavaScript Bootcamp - Code Institute (2022)<li>
-        <li>Frontend Mentor Pro Challenges - 2023<li>
+        <li>Bachelor of Science in Computer Science - University of Web (2021)</li>
+        <li>Advanced CSS and JavaScript Bootcamp - Code Institute (2022)</li>
+        <li>Frontend Mentor Pro Challenges - 2023</li>
       </ul>
     </section>
 
-    <section id="experience" class="mb-5">
-      <h3 style="margin-left: 200px">Experience</h3>
+    <section id="experience" class="mb-5 text-start">
+      <h3>Experience</h3>
       <div>
         <h5>Frontend Developer - WebWorks Inc.</h5>
         <p>Jan 2023 - Present</p>
@@ -60,7 +58,7 @@
       </div>
     </section>
 
-    <section id="testimonials" class="mb-5">
+    <section id="testimonials" class="mb-5 text-start">
       <h3>Testimonials</h3>
       <blockquote class="blockquote">
         <p>"A true professional with a keen eye for design and usability."</p>
@@ -72,7 +70,7 @@
       </blockquote>
     </section>
 
-    <section id="achievements" class="mb-5">
+    <section id="achievements" class="mb-5 text-start">
       <h3>Achievements</h3>
       <ul>
         <li>Winner - Local Hackathon 2023</li>
@@ -85,5 +83,6 @@
   <footer class="bg-dark text-white text-center py-4">
     &copy; 2025 My Portfolio
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
